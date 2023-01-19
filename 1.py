@@ -1,5 +1,8 @@
 from tkinter import *
 
+win = Tk()
+win.geometry("150x170")
+
 def sl(event):
     a = ent1.get()
     b = ent2.get()
@@ -60,6 +63,5 @@ but3.pack()
 but4.pack()
 lab.pack()
 
-win = Tk()
-win.geometry("150x170")
+
 win.mainloop()
